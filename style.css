@@ -1,0 +1,131 @@
+body,
+form,
+input,
+select,
+textarea,
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #666;
+    line-height: 20px;
+}
+
+
+
+#form1 {
+    width: 95%;
+    padding: 20px;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0 0 30px 0 #535252;
+}
+
+
+
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    padding: 50px;
+}
+
+#heading1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 80px;
+    padding: 50px;
+    color: #008cff;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+#expense-btn {
+    margin-top: 10px;
+    text-align: center;
+}
+
+input,
+textarea,
+select {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+    padding: 5px;
+}
+
+
+
+button:hover {
+    background-color: #3a6875;
+}
+
+
+
+table {
+    width: 100%;
+
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    color: #fff;
+    background: #008cff;
+    font-size: 16px;
+
+    border: none;
+
+}
+
+
+
+#expensesTable {
+    margin-top: 20px;
+}
+
+
+#expensesTable th {
+    color: #fff;
+    background-color: #008cff;
+
+}
+
+#expensesTable td {
+    background-color: #f5f5f5;
+}
+
+h2,
+p {
+    font-weight: bold;
+}
+
+#lastdiv {
+    text-align: center;
+}
+
+#summary {
+    margin-top: 20px;
+    text-align: center;
+}
+
+th,
+td {
+
+    text-align: left;
+    padding: 8px;
+}
+
+#budgetDisplay,
+#remainingBudgetDisplay,
+#expensesTable th:first-child {
+    font-weight: bold;
+}
+
+#expen {
+    text-align: center;
+}
